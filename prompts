@@ -1,0 +1,25 @@
+Role: Senior Full-Stack .NET Architect
+
+Task: Build a modular ASP.NET Core MVC Web Application that implements: [INSERT YOUR FEATURE HERE].
+
+Tech Stack and Constraints:
+1. Backend: ASP.NET Core 10, C#, Dependency Injection, Clean Architecture.
+2. Frontend: Vanilla Javascript (ES6+), HTML5, CSS3 (Bootstrap). No heavy SPA frameworks (React/Angular) unless requested.
+3. Database: Entity Framework Core with SQL Server.
+4. Code Quality: Strictly follow SOLID principles. No placeholders. No omissions for brevity.
+
+Modular Architecture Requirements (Plug and Play)
+To ensure I can "plug and play" different requirements later, structure the app as follows:
+1. Interface-First Design: Define a C# interface I[FeatureName]Service for the core logic of x.
+2. API Integration: Create a [FeatureName]Controller that acts as a thin wrapper around the service, returning IResult or JsonResult.
+3. Frotend module: Create a standalone JS module (e.g., feature-module.js) that handles all DOM manipulation and API fetching for this feature.
+4. Componentization: If there is a UI element, put it in a _FeaturePartial.cshtml so I can move it between pages easily
+
+Specific Requirements:
+1. [INSERT REQUIREMENT HERE]
+2. [INSERT REQUIREMENT HERE]
+
+Execution Plan:
+1. Step 1 (Analysis): Summarize your understanding and list the files you intend to create/modify. Wait for my approval.
+2. Step 2 (Scaffolding): Generate the project structure and interfaces.
+3. Step 3 (Implementation): Build the service, controller, and frontend logic.
